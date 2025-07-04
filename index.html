@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
@@ -7,24 +7,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body>
-    <section class="Profile">
+    <section class="profile">
         <div class="card text-bg-dark">
-            <img src="./practice.jpeg" class="portfolio" alt="portfolio" style="height: 100vh; object-fit: cover;">
-            <div class="card-img-overlay">
-                <h1 class="card-title center-title">Title</h1>
-                <p class="center-title-paragraph"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+            <img src="./live-banner.webp" class="portfolio" alt="portfolio" style="height: 100vh; object-fit: cover;"> 
+       <div class="card-img-overlay">
+                <h1 class="card-title center-title" style="font-family: lato;">Saket Bhadada</h1>
+                <div class="center-title-paragraph" style="font-family: sans-serif;color: #BBA7C6;">
+                    <p><span>B.Tech in Computer Science and Bussiness System</span></p>
+                    <p><span>developer since 2024</span></p>
+                </div>
             </div>
         </div>
     </section>
     <section class="breif-intro">
-        <div class="card mb-3">
+        <div class="card mb-3" style="border: 0;">
             <div class="row g-0 intro">
                 <div class="col-md-4">
                     <img src="./download1.jpeg" class="img-fluid rounded-start about_me" alt="about_me" style="height: 100%; object-fit: cover;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" >
                     <div class="card-body">
-                        <h1 class="card-title">about me</h1>
+                        <h1 class="card-title" style="color: white;">about me</h1>
                         <p class="card-text" style="font-family: sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id orci sapien. Nam pellentesque scelerisque blandit. Mauris sed magna justo. Aliquam facilisis viverra quam, eu faucibus ligula tempor dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque vel nibh quis ipsum dictum imperdiet ut a augue. Proin a erat sagittis, molestie eros a, rhoncus ligula. Duis aliquet rutrum maximus.</p>
                     </div>
                 </div>
@@ -32,15 +35,15 @@
         </div>
     </section>
     <section class="container Skills">
-        <div class="container px-4 py-5" id="icon-grid"> 
+        <div class="container px-4 py-5 skill-info" id="icon-grid"> 
             <h2 class="pb-2 border-bottom" style="text-align: center;">Skills</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 skill"> 
                 <div class="col d-flex align-items-start"> 
                     <svg class="bi text-body-secondary flex-shrink-0 me-3" width="2em" height="2em" aria-hidden="true">
                         <use xlink:href="#bootstrap"></use>
                     </svg> 
                     <div> 
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">data structure and algorithms</h3> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis" style="color: #BBA7C6;">data structure and algorithms</h3> 
                         <ul>
                             <li>C++</li>
                             <li>C</li>
@@ -53,7 +56,7 @@
                         <use xlink:href="#cpu-fill"></use>
                     </svg> 
                     <div> 
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">machine learning</h3> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis" style="color: #BBA7C6;">machine learning</h3> 
                         <ul>
                             <li>python(library:)</li>
                             <li>R</li>
@@ -65,7 +68,7 @@
                         <use xlink:href="#geo-fill"></use>
                     </svg> 
                         <div> 
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Front-end web devlopment</h3> 
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis" style="color: #BBA7C6;">Front-end web devlopment</h3> 
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -78,7 +81,7 @@
                         <use xlink:href="#tools"></use>
                     </svg> 
                     <div> 
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">back-end web devlopment</h3>  
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis" style="color: #BBA7C6;">back-end web devlopment</h3>  
                     </div> 
                 </div> 
         </div> 
@@ -139,9 +142,9 @@
         <footer>
             <div class="container footer">
                 <p class="contact_info">contact info</p>
-                <p class="contact_mail contact">abcdefghi@gmail.com</p>
-                <p class="contact_number contact">xxxxxxxxxx</p>
-                <p class="contact_github contact">github account</p>
+                <p class="contact_mail contact"><img src="./envelope.svg" alt="email">abcdefghi@gmail.com</p>
+                <p class="contact_number contact"><img src="./telephone.svg" alt="phone-number">xxxxxxxxxx</p>
+                <p class="contact_github contact"><img src="./github.svg" alt="github">github account</p>
                 <p class="contact_linkdin contact">linkdin account</p>
             </div>
         </footer>

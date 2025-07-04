@@ -1,3 +1,6 @@
+body{
+    background-color: #2E2E2E;
+}
 .center-title{
     position: absolute;
     top: 40%;
@@ -74,3 +77,8 @@ h3{
 .contact{
     font-size: 2rem;
 }
+
+.skill{
+    color: #BBA7C6;
+}
+
