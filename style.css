@@ -5,6 +5,13 @@
     transform: translate(-50%,-50%);
     text-align: center;
 }
+.center-title-paragraph{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 .card-body{
     font-size: 3rem;
 }
@@ -22,8 +29,47 @@ img-fluid {
     margin:20px;
 }
 .rest-info{
-    margin-top: 10%;
+    margin-top: 0;
+    display: block;
 }
 h3{
+    font-size: 2rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.contact_info{
+    font-size: 3rem;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.contact_mail{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.contact_number{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.contact_github{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.contact_linkdin{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.contact{
     font-size: 2rem;
 }
