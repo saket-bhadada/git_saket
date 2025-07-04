@@ -1,0 +1,29 @@
+.center-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.card-body{
+    font-size: 3rem;
+}
+.card-title{
+    font-size: 5rem;
+}
+img-fluid {
+    max-width: 100%;
+    height: 100%;
+}
+.heading{
+    font-size: 4rem; 
+    justify-content: center; 
+    text-align: center;
+    margin:20px;
+}
+.rest-info{
+    margin-top: 10%;
+}
+h3{
+    font-size: 2rem;
+}
