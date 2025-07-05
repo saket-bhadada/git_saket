@@ -63,24 +63,44 @@ h3{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    border: solid #BBA7C6;
+    padding: 5%;
+    border-radius: 25%;
+    border-color: #BBA7C6;
+    flex-direction: column;
 }
 .contact_number{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    border: solid #BBA7C6;
+    padding: 5%;
+    border-radius: 25%;
+    border-color: #BBA7C6;
+    flex-direction: column;
 }
 .contact_github{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    border: solid #BBA7C6;
+    padding: 5%;
+    border-radius: 25%;
+    border-color: #BBA7C6;
+    flex-direction: column;
 }
 .contact_linkdin{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
+    border:  solid #BBA7C6;
+    padding: 5%;
+    border-radius: 25%;
+    border-color: #BBA7C6;
+    flex-direction: column;
 }
 .contact{
     font-size: 2rem;
@@ -124,13 +144,13 @@ footer>div>p>a{
     display: flex;
     flex-direction: column;
 }
- footer>div>div>.contact{
-    border: 1px solid #ddd;
+ /* footer>div>div>p{
+    border: 1px solid #BBA7C6;
     padding: 1.5rem;
     border-radius: 1rem;
-    border-color: aliceblue;
+    border-color: #BBA7C6;
     width: 100px;
     height: 100px;
     display: flex;
     flex-direction: column;
- }
+ } */
