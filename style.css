@@ -18,6 +18,8 @@ body{
 }
 .card-body{
     font-size: 3rem;
+    background-color: #BBA7C6;
+    color: #2E2E2E;
 }
 .card-title{
     font-size: 5rem;
@@ -78,7 +80,22 @@ h3{
     font-size: 2rem;
 }
 
-.skill{
+ul{
     color: #BBA7C6;
 }
-
+.Skills{
+    background-color: #2E2E2E;
+    color: #BBA7C6;
+}
+.breif-intro {
+    background-color: #2E2E2E;
+    padding: 2rem; 
+    color: white; 
+}
+.projects{
+    background-color: #BBA7C6;
+}
+footer{
+    background-color: #2E2E2E;
+    color: #BBA7C6;
+}
