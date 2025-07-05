@@ -99,3 +99,9 @@ footer{
     background-color: #2E2E2E;
     color: #BBA7C6;
 }
+footer img{
+    filter: brightness(0) invert(1);
+}
+footer svg{
+    color: white;
+}
