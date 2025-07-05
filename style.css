@@ -2,14 +2,14 @@ body{
     background-color: #2E2E2E;
 }
 .center-title{
-    position: absolute;
+    position: relative;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
 .center-title-paragraph{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
