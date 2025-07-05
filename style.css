@@ -16,6 +16,12 @@ body{
     text-align: center;
     font-size: 2rem;
 }
+.my-phtot{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .card-body{
     font-size: 3rem;
     background-color: #BBA7C6;
@@ -105,3 +111,26 @@ footer img{
 footer svg{
     color: white;
 }
+footer>div>p>a{
+    color:#BBA7C6;
+}
+.card-box{
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+ footer>div>div>.contact{
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+ }

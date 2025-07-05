@@ -11,6 +11,7 @@
         <div class="card text-bg-dark">
             <img src="./live-banner.webp" class="portfolio" alt="portfolio" style="height: 100vh; object-fit: cover;"> 
        <div class="card-img-overlay">
+            <img src="./practice.jpeg" class="center-title my-photo">
                 <h1 class="card-title center-title" style="font-family: lato;">Saket Bhadada</h1>
                 <div class="center-title-paragraph" style="font-family: sans-serif;color: #BBA7C6;">
                     <p><span>B.Tech in Computer Science and Bussiness System</span></p>
@@ -42,7 +43,7 @@
                     <svg class="bi text-body-secondary flex-shrink-0 me-3" width="2em" height="2em" aria-hidden="true">
                         <use xlink:href="#bootstrap"></use>
                     </svg> 
-                    <div> 
+                    <div class="card-box"> 
                         <h3 class="fw-bold mb-0 fs-4 " style="color: #F8F5F2;">data structure and algorithms</h3> 
                         <ul>
                             <li>C++</li>
@@ -52,10 +53,7 @@
                     </div> 
                 </div> 
                 <div class="col d-flex align-items-start"> 
-                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true">
-                        <use xlink:href="#cpu-fill"></use>
-                    </svg> 
-                    <div> 
+                    <div class="card-box"> 
                         <h3 class="fw-bold mb-0 fs-4" style="color: #F8F5F2;">machine learning</h3> 
                         <ul>
                             <li>python(library:)</li>
@@ -63,11 +61,8 @@
                         </ul> 
                     </div> 
                 </div> 
-                <div class="col d-flex align-items-start"> 
-                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true">
-                        <use xlink:href="#geo-fill"></use>
-                    </svg> 
-                        <div> 
+                <div class="col d-flex align-items-start">
+                        <div class="card-box"> 
                             <h3 class="fw-bold mb-0 fs-4 " style="color: #F8F5F2;">Front-end web devlopment</h3> 
                             <ul>
                                 <li>HTML</li>
@@ -77,10 +72,7 @@
                         </div> 
                 </div> 
                 <div class="col d-flex align-items-start"> 
-                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true">
-                        <use xlink:href="#tools"></use>
-                    </svg> 
-                    <div> 
+                    <div class="card-box"> 
                         <h3 class="fw-bold mb-0 fs-4 " style="color: #F8F5F2;">back-end web devlopment</h3>  
                     </div> 
                 </div> 
@@ -117,20 +109,23 @@
     <section>
         <footer>
             <div class="container footer">
-                <p class="contact_info">contact info</p>
-                <p class="contact_mail contact"><img src="./envelope.svg" alt="email">abcdefghi@gmail.com</p>
-                <p class="contact_number contact"><img src="./telephone.svg" alt="phone-number">xxxxxxxxxx</p>
-                <p class="contact_github contact"><img src="./github.svg" alt="github">github account</p>
-                <p class="contact_linkdin contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 
-                    1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 
-                    1.358-.554 1.358-1.248-.015-.71-.52-1.247-1.341-1.247-.822 0-1.357.537-1.357 1.247 0 
-                    .694.52 1.248 1.327 1.248h.013zm4.908 8.212V9.359c0-.216.016-.432.08-.586.175-.432.572-.88 
-                    1.24-.88.874 0 1.223.664 1.223 1.637v3.864h2.401V9.28c0-2.22-1.184-3.252-2.764-3.252-1.274 
-                    0-1.845.7-2.165 1.193h.03V6.169h-2.4c.03.7 0 7.225 0 7.225h2.4z"/>
-                    </svg>
-                    linkdin account
-                </p>
+                <p class="contact_info">Contact info</p>
+                <div>
+                    <p class="contact_mail contact"><img src="./envelope.svg" alt="email"><a href="abcdefghi@gmail.com" class="btn btn-outline" style="color: #BBA7C6;">abcdefghi@gmail.com</a></p>
+                    <p class="contact_number contact"><img src="./telephone.svg" alt="phone-number"><a href="+91xxxxxxxxx" class="btn btn-outline" style="color: #BBA7C6;">+91xxxxxxxxx</a></p>
+                    <p class="contact_github contact"><img src="./github.svg" alt="github"><a href="github account" class="btn btn-outline" style="color: #BBA7C6;">github account</a></p>
+                    <p class="contact_linkdin contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 
+                        1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 
+                        1.358-.554 1.358-1.248-.015-.71-.52-1.247-1.341-1.247-.822 0-1.357.537-1.357 1.247 0 
+                        .694.52 1.248 1.327 1.248h.013zm4.908 8.212V9.359c0-.216.016-.432.08-.586.175-.432.572-.88 
+                        1.24-.88.874 0 1.223.664 1.223 1.637v3.864h2.401V9.28c0-2.22-1.184-3.252-2.764-3.252-1.274 
+                        0-1.845.7-2.165 1.193h.03V6.169h-2.4c.03.7 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                        <a href="linkdin account" class="btn btn-outline"  style="color: #BBA7C6;">linkdin account</a>
+                    </p>
+                </div>
+               
             </div>
         </footer>
     </section>
