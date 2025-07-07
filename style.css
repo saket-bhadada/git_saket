@@ -52,6 +52,7 @@ h3{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+    padding: 20px;
 }
 .contact_info{
     font-size: 3rem;
@@ -63,44 +64,38 @@ h3{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 30%;
     border: solid #BBA7C6;
     padding: 5%;
-    border-radius: 25%;
-    border-color: #BBA7C6;
-    flex-direction: column;
 }
 .contact_number{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    border-radius: 30%;
     border: solid #BBA7C6;
     padding: 5%;
-    border-radius: 25%;
-    border-color: #BBA7C6;
-    flex-direction: column;
+  
 }
 .contact_github{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    border-radius: 30%;
     border: solid #BBA7C6;
     padding: 5%;
-    border-radius: 25%;
-    border-color: #BBA7C6;
-    flex-direction: column;
+    
 }
 .contact_linkdin{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
-    border:  solid #BBA7C6;
+    border-radius: 30%;
+    border: solid #BBA7C6;
     padding: 5%;
-    border-radius: 25%;
-    border-color: #BBA7C6;
-    flex-direction: column;
 }
 .contact{
     font-size: 2rem;
@@ -127,11 +122,16 @@ footer{
 }
 footer img{
     filter: brightness(0) invert(1);
+    width:100px;
+    height:auto;
 }
 footer svg{
     color: white;
+    width: 100px;
+    height:auto;
 }
-footer>div>p>a{
+footer>div>p>div>a{
+    font-size: 25rem;
     color:#BBA7C6;
 }
 .card-box{
@@ -154,3 +154,4 @@ footer>div>p>a{
     display: flex;
     flex-direction: column;
  } */
+  
