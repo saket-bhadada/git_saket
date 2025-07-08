@@ -124,7 +124,7 @@ footer{
 footer img{
     filter: brightness(0) invert(1);
     width:100px;
-    height:auto;
+    height: auto;
 }
 footer svg{
     color: white;
