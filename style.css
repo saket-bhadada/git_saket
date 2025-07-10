@@ -34,7 +34,7 @@ body{
     margin-bottom: var(--bs-card-title-spacer-y);
     color: var(--bs-card-title-color);
     text-transform: capitalize;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .card-body {
     flex: 1 1 auto;
