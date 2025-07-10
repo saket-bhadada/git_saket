@@ -124,3 +124,7 @@ footer>div>p>div>a{
     display: flex;
     flex-direction: column;
 }
+.pressed{
+    box-shadow:0 4px 4px 0 pink;
+    animation-duration: 0.1s;
+}
