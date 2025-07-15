@@ -49,6 +49,20 @@ body{
 .border-bottom{
     text-align: center;
 }
+.proj {
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.4s ease; /* for smooth animation */
+}
+
+.proj:hover {
+    box-shadow: 2px 2px 10px 2px black;
+    padding: 15px;
+}
 .img-fluid {
     height: 100%; 
     max-width: 100%;
@@ -123,6 +137,12 @@ footer>div>p>div>a{
     height: 300px;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 5px 1px whitesmoke;
+    transition: all 0.3s ease;
+}
+.card-box:hover{
+    box-shadow: 2px 2px 10px 2px white;
+    padding: 15px;
 }
 .pressed{
     box-shadow:0 4px 4px 0 pink;
